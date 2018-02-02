@@ -5,20 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.env107.listview.MainActivity">
+    tools:context="com.example.env107.listview.RecyclerViewActivity">
 
-<Button
-    android:id="@+id/button1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="ListView布局"
-    />
-
-    <Button
-        android:id="@+id/button2"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RecyclerView布局"
-        />
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
