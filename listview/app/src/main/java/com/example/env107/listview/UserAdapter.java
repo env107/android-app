@@ -49,7 +49,7 @@ public class UserAdapter extends ArrayAdapter<User> {
         return view;
     }
 }
-
+//视图缓存
 class ViewCache {
     ImageView img;
     TextView title;
