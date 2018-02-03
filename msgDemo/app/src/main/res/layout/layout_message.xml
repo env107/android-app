@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/msg_layout_get"
+        android:layout_width="160dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/msgget"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/msg_get_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default_text"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#fff"
+            android:maxLines="5"
+            android:maxLength="200"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/msg_layout_send"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="right"
+        android:background="@drawable/msgsend"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/msg_send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default_text"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#fff"
+            android:maxLines="5"
+            android:maxLength="200"
+            />
+    </LinearLayout>
+
+</LinearLayout>
