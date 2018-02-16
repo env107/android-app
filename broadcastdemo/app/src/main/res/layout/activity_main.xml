@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/send_local_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送本地广播"
+        />
+
+    <Button
+        android:id="@+id/send_order_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送有序广播"
+        />
+
+    <Button
+        android:id="@+id/send_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送标准广播"
+        />
+
+
+</LinearLayout>
