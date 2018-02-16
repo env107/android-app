@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.env107.fragmentdemo.MainActivity">
 
-   <fragment0
+   <fragment
        android:id="@+id/left_frag"
        android:layout_width="0dp"
        android:layout_height="match_parent"
